@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="625577" started-at="2024-04-08T00:05:22Z" finished-at="2024-04-08T00:15:48Z">
+    <groups>
+      <group name="shop">
+        <method signature="Testng.shop1()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop1" class="org.loc.Testng"/>
+        <method signature="Testng.shop2()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop2" class="org.loc.Testng"/>
+        <method signature="Testng.shop3()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop3" class="org.loc.Testng"/>
+        <method signature="Testng.shop4()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop4" class="org.loc.Testng"/>
+        <method signature="Testng.shop5()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop5" class="org.loc.Testng"/>
+        <method signature="Testng.shop6()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop6" class="org.loc.Testng"/>
+      </group> <!-- shop -->
+    </groups>
+    <test name="Test" duration-ms="625577" started-at="2024-04-08T00:05:22Z" finished-at="2024-04-08T00:15:48Z">
+      <class name="org.loc.StorePojoTest">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.loc.StorePojoTest@91161c7]" name="tc1" is-config="true" duration-ms="30862" started-at="2024-04-08T05:35:22Z" finished-at="2024-04-08T05:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.loc.Testng@68c4039c]" name="tc1" is-config="true" duration-ms="28209" started-at="2024-04-08T05:35:53Z" finished-at="2024-04-08T05:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="checkHelp()[pri:0, instance:org.loc.StorePojoTest@91161c7]" name="checkHelp" duration-ms="48615" started-at="2024-04-08T05:44:34Z" finished-at="2024-04-08T05:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHelp -->
+        <test-method status="PASS" signature="findStore()[pri:0, instance:org.loc.StorePojoTest@91161c7]" name="findStore" duration-ms="25168" started-at="2024-04-08T05:45:22Z" finished-at="2024-04-08T05:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+      </class> <!-- org.loc.StorePojoTest -->
+      <class name="org.loc.Testng">
+        <test-method status="PASS" signature="Quiz()[pri:0, instance:org.loc.Testng@68c4039c]" name="Quiz" duration-ms="24996" started-at="2024-04-08T05:36:21Z" finished-at="2024-04-08T05:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quiz -->
+        <test-method status="PASS" signature="shop1()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop1" duration-ms="24051" started-at="2024-04-08T05:36:46Z" finished-at="2024-04-08T05:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop1 -->
+        <test-method status="PASS" signature="shop2()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop2" duration-ms="23867" started-at="2024-04-08T05:37:10Z" finished-at="2024-04-08T05:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop2 -->
+        <test-method status="PASS" signature="shop3()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop3" duration-ms="24291" started-at="2024-04-08T05:37:34Z" finished-at="2024-04-08T05:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop3 -->
+        <test-method status="PASS" signature="shop4()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop4" duration-ms="24447" started-at="2024-04-08T05:37:59Z" finished-at="2024-04-08T05:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop4 -->
+        <test-method status="PASS" signature="shop5()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop5" duration-ms="24569" started-at="2024-04-08T05:38:23Z" finished-at="2024-04-08T05:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop5 -->
+        <test-method status="PASS" signature="shop6()[pri:0, instance:org.loc.Testng@68c4039c]" name="shop6" duration-ms="47752" started-at="2024-04-08T05:38:48Z" finished-at="2024-04-08T05:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop6 -->
+        <test-method status="PASS" signature="addtoCart()[pri:0, instance:org.loc.Testng@68c4039c]" name="addtoCart" duration-ms="28345" started-at="2024-04-08T05:39:35Z" finished-at="2024-04-08T05:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method status="PASS" signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:org.loc.Testng@68c4039c]" name="tc2" duration-ms="49042" started-at="2024-04-08T05:40:04Z" data-provider="login" finished-at="2024-04-08T05:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@gmail.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[%^^&&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:org.loc.Testng@68c4039c]" name="tc2" duration-ms="48303" started-at="2024-04-08T05:40:53Z" data-provider="login" finished-at="2024-04-08T05:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23.876]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data@rewA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:org.loc.Testng@68c4039c]" name="tc2" duration-ms="51286" started-at="2024-04-08T05:41:41Z" data-provider="login" finished-at="2024-04-08T05:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyankajayaraman1211996@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!!@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:org.loc.Testng@68c4039c]" name="tc2" duration-ms="49298" started-at="2024-04-08T05:42:32Z" data-provider="login" finished-at="2024-04-08T05:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyankajayaraman1211996@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:org.loc.Testng@68c4039c]" name="tc3" duration-ms="71948" started-at="2024-04-08T05:43:22Z" finished-at="2024-04-08T05:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.loc.Testng@68c4039c]" name="close" is-config="true" duration-ms="401" started-at="2024-04-08T05:45:47Z" finished-at="2024-04-08T05:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.loc.Testng -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

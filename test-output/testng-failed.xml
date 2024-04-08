@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="org.loc.Testng">
+        <methods>
+          <include name="shop1"/>
+          <include name="shop5"/>
+          <include name="tc3"/>
+          <include name="close"/>
+          <include name="shop3"/>
+          <include name="shop4"/>
+          <include name="shop2"/>
+          <include name="tc2" invocation-numbers="0 1 2 3"/>
+          <include name="Quiz"/>
+          <include name="addtoCart"/>
+          <include name="shop6"/>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- org.loc.Testng -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
